@@ -33,7 +33,7 @@ Options List:
 - greatNum: `10` 鼓励文字步进
 - greatArr: `["Super!", "Radical!", "Fantastic!", "Great!", "OMG", "Whoah!", ":O", "Nice!", "Splendid!", "Wild!", "Grand!", "Impressive!", "Stupendous!", "Extreme!", "Awesome!"]` 鼓励文字
 
-- ------- 以下需要载入 power.js ----------
+------- 以下需要载入 power.js ----------
 - colorful `true` 彩色文字粉末
 - shake `true` 输入框晃动
 
