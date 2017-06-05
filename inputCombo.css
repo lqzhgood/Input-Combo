@@ -1,0 +1,183 @@
+@font-face {
+    font-weight : normal;
+    font-style : normal;
+    font-family : "Press Start 2P";
+    src : url("./fonts/PressStart2P.eot");
+    src : local("☺"), url("./fonts/PressStart2P.woff") format("woff"), url("./fonts/PressStart2P.ttf") format("truetype"), url("./fonts/PressStart2P.svg") format("svg");
+}
+
+.streak-container {
+    position : absolute;
+    top : 20px;
+    right : 20px;
+    z-index : 10;
+    text-align : right;
+    font-family : "Press Start 2P", sans-serif;
+}
+
+.streak-container .current {
+    color : #000;
+    font-size : 16px;
+}
+
+.streak-container .counter {
+    padding-top : 30px;
+    color : #4effa1;
+    font-size : 80px;
+    -webkit-transform-origin : center center;
+        -ms-transform-origin : center center;
+            transform-origin : center center;
+}
+
+.streak-container .counter.animate {
+    -webkit-animation-name : myfirst;
+            animation-name : myfirst;
+    -webkit-animation-duration : 0.1s;
+            animation-duration : 0.1s;
+    -webkit-animation-play-state : running;
+            animation-play-state : running;
+    -webkit-animation-iteration-count : 1;
+            animation-iteration-count : 1;
+
+    -webkit-animation-fill-mode : backwards;
+            animation-fill-mode : backwards;
+}
+
+@-webkit-keyframes myfirst {
+    0% , 100% {
+        -webkit-transform : scale(1);
+                transform : scale(1);
+    }
+    50% {
+        -webkit-transform : scale(1.5);
+                transform : scale(1.5);
+    }
+}
+
+.streak-container .bar {
+    position : relative;
+    margin-top : 23px;
+    width : 100%;
+    height : 8px;
+    background : #4effa1;
+    opacity : 0.5;
+    -webkit-transform : scaleX(0);
+        -ms-transform : scaleX(0);
+            transform : scaleX(0);
+}
+
+.streak-container .bar.animate {
+    -webkit-animation-name : bar;
+            animation-name : bar;
+    -webkit-animation-duration : 3s;
+            animation-duration : 3s;
+    -webkit-animation-play-state : running;
+            animation-play-state : running;
+    -webkit-animation-iteration-count : 1;
+            animation-iteration-count : 1;
+
+    animate-function : linear;
+    -webkit-animation-fill-mode : backwards;
+            animation-fill-mode : backwards;
+}
+
+@-webkit-keyframes bar {
+    0% {
+        -webkit-transform : scaleX(1);
+                transform : scaleX(1);
+    }
+    100% {
+        -webkit-transform : scaleX(0);
+                transform : scaleX(0);
+    }
+}
+
+.streak-container .exclamations {
+    position : absolute;
+    right : 0;
+    bottom : -20px;
+    display : block;
+    color : #4effa1;
+    text-align : right;
+    font-size : 20px;
+    opacity : 0.75;
+}
+
+.streak-container .exclamations .exclamation {
+    position : absolute;
+    top : 0;
+    right : 0;
+    display : block;
+    min-width : 200px;
+    -webkit-animation : exclamation 1.5s ease-out both;
+            animation : exclamation 1.5s ease-out both;
+}
+
+@-webkit-keyframes exclamation {
+    100% {
+        opacity : 0;
+        -webkit-transform : translate3D(0, 100px, 0);
+                transform : translate3D(0, 100px, 0);
+    }
+}
+
+.download-button {
+    position : absolute;
+    right : 20px;
+    bottom : 20px;
+    z-index : 10;
+}
+
+.lv1 .counter , .lv1 .exclamations {
+    color : #4effa1;
+}
+
+.lv1 .bar {
+    background-color : #4effa1;
+}
+
+.lv2 .counter , .lv2 .exclamations {
+    color : #0df;
+}
+
+.lv2 .bar {
+    background-color : #0df;
+}
+
+.lv3 .counter , .lv3 .exclamations {
+    color : #4f6fa0;
+}
+
+.lv3 .bar {
+    background-color : #4f6fa0;
+}
+
+.lv4 .counter , .lv4 .exclamations {
+    color : #6c5b9f;
+}
+
+.lv4 .bar {
+    background-color : #6c5b9f;
+}
+
+.lv5 .counter , .lv5 .exclamations {
+    color : #a25875;
+}
+
+.lv5 .bar {
+    background-color : #a25875;
+}
+
+.lv6 .counter , .lv6 .exclamations {
+    color : #d7544a;
+}
+
+.lv6 .bar {
+    background-color : #d7544a;
+}
+
+.cont {
+    overflow : hidden;
+    width : 60%;
+    height : 400px;
+}
