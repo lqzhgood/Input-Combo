@@ -25,9 +25,32 @@
 
 ## Options 参数
 
+```javascript
+
+var inputCombo = new InputCombo({
+            id: 'warp'.
+            level:6,
+            levelUpNum:30,
+            greatNum:10,
+            greatArr:["Super!", "Radical!", "Fantastic!", "Great!", "OMG", "Whoah!", ":O", "Nice!", "Splendid!", "Wild!", "Grand!", "Impressive!", "Stupendous!", "Extreme!", "Awesome!"],
+            colorful:true,
+            shake:true,
+            inputFn:function(){
+                console.log('input');
+            },
+            overFn:function(){
+                console.log('over');
+            },
+            levelFn:function(){
+                console.log('levelUp');
+            }
+        });
+```
+
+
 Options List:
 
-- id: `codument.body` 开始的X轴位置
+- id: `document.body` 开始的X轴位置
 - level: `6` 最大等级
 - levelUpNum `30` 升级步进
 - greatNum: `10` 鼓励文字步进
@@ -39,7 +62,7 @@ Options List:
 
 
 
-## Events 事件
+### Events 事件
  
 ```
 
