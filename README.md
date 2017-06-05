@@ -1,6 +1,9 @@
 # INPUT-COMBO
 
-## 立即使用
+## Preview 预览
+
+
+## How to Use 如何使用
 
 ```HTML
     <link rel="stylesheet" href="./inputCombo.css">
@@ -17,7 +20,7 @@
         inputCombo.init();
     </script>
 ```
-#### POWERMODE模式
+#### POWERMODE 模式
 
 ```HTML
     <script src="./power.js"></script>
