@@ -53,7 +53,7 @@ var inputCombo = new InputCombo({
 
 Options List:
 
-- id: `document.body` 开始的X轴位置
+- id: `document.body` 元素ID，如为空默认绑定body
 - level: `6` 最大等级
 - levelUpNum `30` 升级步进
 - greatNum: `10` 鼓励文字步进
