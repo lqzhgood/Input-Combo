@@ -2,6 +2,7 @@
 
 ## Preview 预览
 
+[lqzhgood.github.io/Input-Combo/](lqzhgood.github.io/Input-Combo/)
 
 ## How to Use 如何使用
 
@@ -53,13 +54,14 @@ var inputCombo = new InputCombo({
 
 Options List:
 
-- id: `document.body` 元素ID，如为空默认绑定body
-- level: `6` 最大等级
+- id: `document.body` 元素ID，如为空默认绑定body / element Id is none, default is body
+- level: `6` 最大等级 / max level
 - levelUpNum `30` 升级步进
 - greatNum: `10` 鼓励文字步进
 - greatArr: `["Super!", "Radical!", "Fantastic!", "Great!", "OMG", "Whoah!", ":O", "Nice!", "Splendid!", "Wild!", "Grand!", "Impressive!", "Stupendous!", "Extreme!", "Awesome!"]` 鼓励文字
 
 ------- 以下需要载入 power.js ----------
+------- must need power.js ----------
 - colorful `true` 彩色文字粉末
 - shake `true` 输入框晃动
 
@@ -71,6 +73,6 @@ Options List:
 
 Events 列表
 
-- inputFn - 输入后触发
+- inputFn - 输入后触发 
 - overFn - Combo 结束触发
 - levelFn - 升级后触发
