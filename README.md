@@ -2,7 +2,7 @@
 
 ## Preview 预览
 
-[lqzhgood.github.io/Input-Combo/](lqzhgood.github.io/Input-Combo/)
+[https://lqzhgood.github.io/Input-Combo/](https://lqzhgood.github.io/Input-Combo/)
 
 ## How to Use 如何使用
 
